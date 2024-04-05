@@ -1,14 +1,52 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <!DOCTYPE html>
+<title>Bodensee-Koalas Home</title>
 <html lang="de">
 <head>
   <meta charset="utf-8">
   <title></title>
   <link href="style.css" rel="stylesheet" />
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-  <div></div>
-    <a href="https://ninja6734.github.io/Bodensee-Koalas-Website/">Home</a>
-    <a href="https://ninja6734.github.io/Bodensee-Koalas-Website/team">Das Team</a>
-    <a href="https://ninja6734.github.io/Bodensee-Koalas-Website/robot">Unser Roboter</a>
+  <div class = "Buttons">
+    <button class="MainButtons">Home</button>
+    <button class="MainButtons">Das Team</button>
+    <button class="MainButtons">Unser Roboter</button>
+</div>
+<div class = "Team">
+  <h2>Das Team</h2>
+  <img src="imgs/mitglieder.png" alt = "Team: Bodensee-Koalas">
+  <p>Von links nach rechts: Dennis Skurka (Programmierer), Julius Kimpfler (Programmierer und Konstrukteur), Jann Müller (Konstrukteur) und Felix Wiedermann (Programmierer und Konstrukteur).</p>
+</div>
+<div class = "Roboter">
+  <h2>Unser Roboter</h2>
+  <div = class="Allgemein">
+  <h3>Allgemein</h3>
+  <p>Unser Fußballroboter "Ernie"</p>
+  <img src = "imgs/Ernie_1.jpg" alt="Ernie">
+  <p>Er besteht aus zwei Ultraschallsensoren, einem Ballsensor und einem Kompasssensor. Dazu wurde der EV3 von Lego Mindstorms sowie RobotC und Visual Studio Code. Der Roboter wurde in C programmiert.</p>
+  </div>
+  <div class = "Dribbler">
+  <h3>Der Dribbler</h3>
+  <img src = "imgs/Ernie_Dribbler_1.jpg" alt ="Ernie sein Dribbler">
+</div>
+  <h3>Die Sensoren</h3>
+  <div class = "USS">
+  <h4>Die Ultraschallsensoren</h4>
+  <img src = "imgs/Ernie_USS_1.jpg" alt = "Einer von Ernie seinen Ultraschallsensoren">
+  <p>Sie werden verwendet um den Abstand zu den jeweiligen Banden des Spielsfeldes zu messen.</p>
+</div>
+  <div class = "Kompasssensor">
+  <h4>Der Kompasssensor</h4>
+  <img src = "imgs/Ernie_Kompasssensor.jpg" alt = "Ernie sein Kompasssensor">
+  <p>Er wird benutzt um die richtung des Tores am Anfang des Spiels zu bestimmen.</p>
+  </div>
+  <div class = "Ballsensor">
+  <h4>Der Ballsensor</h4>
+  <img src="imgs/Ernie_Ballsensor.jpg" alt ="Ernie sein Ballsensor">
+  <p>Der Ballsensor wird benutzt um die Richtung wo sich der Ball befindet zu bestimmen. Das tut er indem er das IR-Signal des Balles erkennt und eine Zahl von 1-9 oder 0 (nicht erkannt) ausgibt die 1 steht für ganz links die 5 für geradeaus und die 9 für ganz rechts.</p>
+  </div>
+</div>
 </body>
 </html>

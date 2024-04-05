@@ -1,0 +1,13 @@
+.Buttons button{
+    font-size: 16px;
+    border-radius: 11px;
+    background-color: #d9e6eb;
+    border-color: #b4c1c6;
+}
+.Buttons button:hover{
+    background-color: #bbc9ce;
+}
+img{
+    width: 500px;
+    height: auto;
+}
