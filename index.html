@@ -22,31 +22,36 @@
 <div class = "Roboter">
   <h2>Unser Roboter</h2>
   <div = class="Allgemein">
+  <div class = AllgemeinRobot>
   <h3>Allgemein</h3>
   <p>Unser Fußballroboter "Ernie"</p>
   <img src = "imgs/Ernie_1.jpg" alt="Ernie">
   <p>Er besteht aus zwei Ultraschallsensoren, einem Ballsensor und einem Kompasssensor. Dazu wurde der EV3 von Lego Mindstorms sowie RobotC und Visual Studio Code. Der Roboter wurde in C programmiert.</p>
-  </div>
-  <div class = "Dribbler">
+</div>
+  <div class = "AllgemeinRobot" id="Dribbler">
   <h3>Der Dribbler</h3>
   <img src = "imgs/Ernie_Dribbler_1.jpg" alt ="Ernie sein Dribbler">
+  <p>Der Dribbler wird benutzt um den Ball an unserrem Roboter zu halten und den Gegner auszudribbeln</p>
 </div>
-  <h3>Die Sensoren</h3>
-  <div class = "USS">
+</div>
+<h3>Die Sensoren</h3>
+<div class = Sensoren>
+  <div id = "USS">
   <h4>Die Ultraschallsensoren</h4>
   <img src = "imgs/Ernie_USS_1.jpg" alt = "Einer von Ernie seinen Ultraschallsensoren">
   <p>Sie werden verwendet um den Abstand zu den jeweiligen Banden des Spielsfeldes zu messen.</p>
 </div>
-  <div class = "Kompasssensor">
+  <div id="Kompasssensor">
   <h4>Der Kompasssensor</h4>
   <img src = "imgs/Ernie_Kompasssensor.jpg" alt = "Ernie sein Kompasssensor">
   <p>Er wird benutzt um die richtung des Tores am Anfang des Spiels zu bestimmen.</p>
   </div>
-  <div class = "Ballsensor">
+  <div id = "Ballsensor">
   <h4>Der Ballsensor</h4>
   <img src="imgs/Ernie_Ballsensor.jpg" alt ="Ernie sein Ballsensor">
   <p>Der Ballsensor wird benutzt um die Richtung wo sich der Ball befindet zu bestimmen. Das tut er indem er das IR-Signal des Balles erkennt und eine Zahl von 1-9 oder 0 (nicht erkannt) ausgibt die 1 steht für ganz links die 5 für geradeaus und die 9 für ganz rechts.</p>
   </div>
+</div>
 </div>
 </body>
 </html>

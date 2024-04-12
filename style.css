@@ -8,6 +8,25 @@
     background-color: #bbc9ce;
 }
 img{
-    width: 500px;
+    width: 400px;
     height: auto;
+}
+p{
+    max-width: 400;
+}
+.Allgemein{
+    display: flex;
+}
+.Sensoren{
+    display: flex;
+}
+#Dribbler.AllgemeinRobot{
+    padding-top: 35px;
+    padding-left: 85px;
+}
+#Kompasssensor{
+    padding-left: 85px;
+}
+#Ballsensor{
+    padding-left: 85px;
 }
