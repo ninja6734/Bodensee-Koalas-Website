@@ -1,10 +1,10 @@
-.Buttons button{
-    font-size: 16px;
+.MainNav button{
+    font-size: 19px;
     border-radius: 11px;
     background-color: #d9e6eb;
-    border-color: #b4c1c6;
+    border-color: #d9e6eb;
 }
-.Buttons button:hover{
+.MainNav button:hover{
     background-color: #bbc9ce;
 }
 img{
@@ -12,7 +12,9 @@ img{
     height: auto;
 }
 p{
+    font-size: 17px;
     max-width: 400;
+    font-family: "Quicksand", sans-serif;
 }
 .Allgemein{
     display: flex;
@@ -29,4 +31,27 @@ p{
 }
 #Ballsensor{
     padding-left: 85px;
+}
+body{
+    background-color: rgb(217, 223, 235);
+}
+*{
+    color: #353942;
+}
+img{
+    border-radius: 30px;
+    -webkit-filter: drop-shadow(0px 16px 10px rgba(35, 36, 38, 0.6));
+    -moz-filter: drop-shadow(0px 16px 10px rgba(35, 36, 38, 0.6));
+    -ms-filter: drop-shadow(0px 16px 10px rgba(35, 36, 38, 0.6)); 
+    -o-filter: drop-shadow(0px 16px 10px rgba(35, 36, 38, 0.6));
+     filter: drop-shadow(0px 16px 10px rgba(35, 36, 38, 0.6)); 
+    }
+#credits{
+    font-size: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.MainNav{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(180, 185, 194);
 }

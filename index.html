@@ -9,18 +9,18 @@
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-  <div class = "Buttons">
-    <button class="MainButtons">Home</button>
-    <button class="MainButtons">Das Team</button>
-    <button class="MainButtons">Unser Roboter</button>
+  <div class = "MainNav">
+    <button class="MainButtons" onclick="MainButtons('Team');">Das Team</button>
+    <button class="MainButtons" onclick="MainButtons('Roboter');">Unser Roboter</button>
+    <button class="MainButtons" onclick="MainButtons('Sensorik');">Sensorik</button>
 </div>
 <div class = "Team">
-  <h2>Das Team</h2>
+  <h2 id="Team">Das Team</h2>
   <img src="imgs/mitglieder.png" alt = "Team: Bodensee-Koalas">
   <p>Von links nach rechts: Dennis Skurka (Programmierer), Julius Kimpfler (Programmierer und Konstrukteur), Jan Müller (Konstrukteur) und Felix Wiedermann (Konstrukteur).</p>
 </div>
 <div class = "Roboter">
-  <h2>Unser Roboter</h2>
+  <h2 id = "Roboter">Unser Roboter</h2>
   <div = class="Allgemein">
   <div class = AllgemeinRobot>
   <h3>Allgemein</h3>
@@ -34,7 +34,7 @@
   <p>Der Dribbler wird benutzt um den Ball an unserrem Roboter zu halten und den Gegner auszudribbeln</p>
 </div>
 </div>
-<h3>Die Sensoren</h3>
+<h3 id="Sensorik">Die Sensoren</h3>
 <div class = Sensoren>
   <div id = "USS">
   <h4>Die Ultraschallsensoren</h4>
@@ -53,5 +53,7 @@
   </div>
 </div>
 </div>
+<p id="credits">Website erstellt von: Dennis Skurka</p>
+<p id="credits">Bilder fotographiert von: Felix Wiedermann</p>
 </body>
 </html>
