@@ -52,3 +52,25 @@ img{
     padding: 10px;
     background-color: rgb(204, 209, 220);
 }
+#Allgemein{
+    border-radius: 10px;
+    background-color: #9dafb5;
+    padding-left: 12px;
+}
+#Sensoren{
+    padding-left: 12px;
+    border-radius: 10px;
+    background-color: #9dafb5;
+}
+.Headers{
+    font-family: "Quicksand", sans-serif;
+}
+#WappenUTeam{
+    display:flex;
+    padding-left: 12px;
+    border-radius: 10px;
+    background-color: #829398;
+}
+#Wappen{
+    padding-left: 90%;
+}
