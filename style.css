@@ -5,9 +5,11 @@
     --light_container_background: #9dafb5;
     --light_container_background_hover: #75858b;
     --light_body_background: #d9dfeb;
+    --light_text: #000000;
 }
 
 .MainNav button{
+    color: var(--light_text);
     font-size: 19px;
     border-radius: 30px;
     background-color: var(--light_button);
@@ -33,6 +35,7 @@ p{
     font-size: 17px;
     max-width: 400;
     font-family: "Quicksand", sans-serif;
+    color: var(--light_text);
 }
 .Allgemein{
     display: flex;
@@ -91,6 +94,7 @@ img{
 }
 .Headers{
     font-family: "Quicksand", sans-serif;
+    color: var(--light_text);
 }
 #WappenUTeam{
     display:flex;
