@@ -1,12 +1,16 @@
 .MainNav button{
     font-size: 19px;
-    border-radius: 11px;
-    background-color: #d9e6eb;
-    border-color: #d9e6eb;
+    border-radius: 30px;
+    background-color: #aab5ba;
+    border-width: 0px;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
     transition: 0.5s;
 }
 .MainNav button:hover{
-    background-color: #bbc9ce;
+    background-color: #6c7b80;
 }
 img{
     width: 400px;
@@ -58,11 +62,19 @@ img{
     border-radius: 10px;
     background-color: #9dafb5;
     padding-left: 12px;
+    transition: 0.5s;
+}
+#Allgemein:hover{
+    background-color: #75858b;
 }
 #Sensoren{
     padding-left: 12px;
     border-radius: 10px;
     background-color: #9dafb5;
+    transition: 0.5s;
+}
+#Sensoren:hover{
+    background-color: #75858b;
 }
 .Headers{
     font-family: "Quicksand", sans-serif;
@@ -72,6 +84,10 @@ img{
     padding-left: 12px;
     border-radius: 10px;
     background-color: #829398;
+    transition: 0.5s
+}
+#WappenUTeam:hover{
+    background-color: #566569;
 }
 #Wappen{
     padding-left: 90%;
