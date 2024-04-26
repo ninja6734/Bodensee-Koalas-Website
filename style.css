@@ -1,16 +1,29 @@
+:root{
+    --light_button: #aab5ba;
+    --light_button_hover: #6c7b80;
+    --light_navigation_background: #c3cfd2;
+    --light_container_background: #9dafb5;
+    --light_container_background_hover: #75858b;
+    --light_body_background: #d9dfeb;
+}
+
 .MainNav button{
     font-size: 19px;
     border-radius: 30px;
-    background-color: #aab5ba;
+    background-color: var(--light_button);
     border-width: 0px;
     padding: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
     cursor: pointer;
     transition: 0.5s;
+    margin-left: 20px;
+}
+#Team{
+    margin-left: 0px;
 }
 .MainNav button:hover{
-    background-color: #6c7b80;
+    background-color: var(--light_button_hover);
 }
 img{
     width: 400px;
@@ -39,7 +52,7 @@ p{
 }
 body{
     margin: 0px;
-    background-color: rgb(217, 223, 235);
+    background-color: var(--light_body_background);
 }
 img{
     border-radius: 30px;
@@ -56,25 +69,25 @@ img{
 .MainNav{
     border-radius: 3px;
     padding: 10px;
-    background-color: rgb(204, 209, 220);
+    background-color: var(--light_navigation_background);
 }
 #Allgemein{
     border-radius: 10px;
-    background-color: #9dafb5;
+    background-color: var(--light_container_background);
     padding-left: 12px;
     transition: 0.5s;
 }
 #Allgemein:hover{
-    background-color: #75858b;
+    background-color: var(--light_container_background_hover);
 }
 #Sensoren{
     padding-left: 12px;
     border-radius: 10px;
-    background-color: #9dafb5;
+    background-color: var(--light_container_background);
     transition: 0.5s;
 }
 #Sensoren:hover{
-    background-color: #75858b;
+    background-color: var(--light_container_background_hover);
 }
 .Headers{
     font-family: "Quicksand", sans-serif;
@@ -83,11 +96,11 @@ img{
     display:flex;
     padding-left: 12px;
     border-radius: 10px;
-    background-color: #829398;
+    background-color: var(--light_container_background);
     transition: 0.5s
 }
 #WappenUTeam:hover{
-    background-color: #566569;
+    background-color: var(--light_container_background_hover);
 }
 #Wappen{
     padding-left: 90%;
