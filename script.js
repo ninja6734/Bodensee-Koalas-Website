@@ -20,7 +20,6 @@ function ChangeTheme(){
 function LoadTheme(selTheme){
     let rootElement = document.querySelector(":root");
     let button = document.getElementById("ThemeButton");
-    console.log(selTheme);
     if(selTheme == "light"){
         button.innerText = "Dark Mode";
         rootElement.style.setProperty("--light_button","#aab5ba");
@@ -32,7 +31,6 @@ function LoadTheme(selTheme){
         rootElement.style.setProperty("--light_text","#000000");
     }
     else{
-        console.log("works!");
         button.innerHTML = "Light Mode";
         rootElement.style.setProperty("--light_button","#333F44");
         rootElement.style.setProperty("--light_button_hover","#4E5D64");
@@ -43,3 +41,13 @@ function LoadTheme(selTheme){
         rootElement.style.setProperty("--light_text","#7E9099");
     }
 }
+
+window.onload = function SetupTheme(){
+    let theme = localStorage.getItem("theme");
+    if(theme){
+        LoadTheme(theme);
+    }
+    else{
+        LoadTheme("dark");
+    }
+};
