@@ -1,0 +1,72 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html>
+<title>Bodensee-Koalas Home</title>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="../style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+  <div class = "MainNav">
+    <h1 class="Headers">Bodensee-Koalas</h1>
+    <button class="MainButtons" id="Team"class="Text" onclick="MainButtons('Team');">The team</button>
+    <button class="MainButtons"class="Text" onclick="MainButtons('Roboter');">Our robot</button>
+    <button class="MainButtons"class="Text" onclick="MainButtons('Sensorik');">Sensors</button>
+    <button class="MainButtons" class="Text"onclick="OpenWebsite()">Our code</button>
+    <button class="MainButtons" class="Text"id="ThemeButton" onclick="ChangeTheme();">Dark Mode</button>
+    <a href="../index.html">
+    <button class="MainButtons" id="LanguageButton" onclick="ChangeLanguage();">Deutsch</button>
+    </a>
+</div>
+<div id="WappenUTeam">
+<div class = "Team">
+  <h2 id="Team" class = "Headers">The team</h2>
+  <img src="../imgs/mitglieder.png" alt = "Team: Bodensee-Koalas">
+  <p class="Text">From left to right: Dennis Skurka (Programmer), Julius Kimpfler (Programmer and constructor), Jan Müller (constructor) and Felix Wiedermann (constructor).</p>
+</div>
+<div class = "Wappen">
+  <img src="../imgs/Wappen.png" id="Wappen">
+</div>
+</div>
+<div class = "Roboter">
+  <h2 id = "Roboter" class = "Headers" class="Text">Our robot</h2>
+  <div = class="Allgemein" id = "Allgemein">
+  <div class = AllgemeinRobot>
+  <h3 class = "Headers" class="Text">General</h3>
+  <p class="Text">Our soccer-robot "Ernie"</p>
+  <img src = "../imgs/Ernie_1.jpg" alt="Ernie">
+  <p class="Text">He's built using two ultrasonic sensors, an IR-seeker and a compass sensor. We used the lego mindstorms ev3, RobotC and visual studio code. The robot was programmed using c.</p>
+</div>
+  <div class = "AllgemeinRobot" id="Dribbler">
+  <h3 class="Text" class = "Headers">The dribbler</h3>
+  <img src = "../imgs/Ernie_Dribbler_1.jpg" alt ="Ernie sein Dribbler">
+  <p class="Text">The dribbler is being used to keep the ball sticking to our robot and to "overcome" the opponent.</p>
+</div>
+</div>
+<h3 class="Text" class = "Headers" id="Sensorik">The sensors</h3>
+<div class = Sensoren id="Sensoren">
+  <div id = "USS">
+  <h4 class="Text" class = "Headers">The ultrasonic sensors</h4>
+  <img src = "../imgs/Ernie_USS_1.jpg" alt = "Einer von Ernie seinen Ultraschallsensoren">
+  <p class="Text">They are used to calculate the distance from the edges of the court.</p>
+</div>
+  <div id="Kompasssensor">
+  <h4 class="Text" class = "Headers">The compass sensor</h4>
+  <img src = "../imgs/Ernie_Kompasssensor.jpg" alt = "Ernie sein Kompasssensor">
+  <p class="Text">It is used to remember where the opponent's goal is located, it only detects the general direction not the actual direction.</p>
+  </div>
+  <div id = "Ballsensor">
+  <h4 class="Text" class = "Headers">The IR-seeker</h4>
+  <img src="../imgs/Ernie_Ballsensor.jpg" alt ="Ernie sein Ballsensor">
+  <p class="Text">The IR-seeker is used to locate the ball. The ball sens out infrared rays which our IR-seeker collects and outputs a number ranging from 0-9. 1 is the very left 5 is the front and 9 the very right, 0 means ball not found.</p>
+  </div>
+</div>
+</div>
+
+<p class="Text" id="credits">Website created by: Dennis Skurka </p>
+<p class="Text" id="credits">pictures taken by: Felix Wiedermann</p>
+</body>
+</html>

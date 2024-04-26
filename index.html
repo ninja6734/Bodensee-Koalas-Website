@@ -12,58 +12,61 @@
 <body>
   <div class = "MainNav">
     <h1 class="Headers">Bodensee-Koalas</h1>
-    <button class="MainButtons" id="Team" onclick="MainButtons('Team');">Das Team</button>
-    <button class="MainButtons" onclick="MainButtons('Roboter');">Unser Roboter</button>
-    <button class="MainButtons" onclick="MainButtons('Sensorik');">Sensorik</button>
-    <button class="MainButtons" onclick="OpenWebsite()">Unser Code</button>
-    <button class="MainButtons" id="ThemeButton" onclick="ChangeTheme();">Dark Mode</button>
+    <button class="MainButtons" id="Team"class="Text" onclick="MainButtons('Team');">Das Team</button>
+    <button class="MainButtons"class="Text" onclick="MainButtons('Roboter');">Unser Roboter</button>
+    <button class="MainButtons"class="Text" onclick="MainButtons('Sensorik');">Sensorik</button>
+    <button class="MainButtons" class="Text"onclick="OpenWebsite()">Unser Code</button>
+    <button class="MainButtons" class="Text"id="ThemeButton" onclick="ChangeTheme();">Dark Mode</button>
+    <a href="en/index.html">
+    <button class="MainButtons" id="LanguageButton" onclick="ChangeLanguage();">English</button>
+  </a>
 </div>
 <div id="WappenUTeam">
 <div class = "Team">
   <h2 id="Team" class = "Headers">Das Team</h2>
   <img src="imgs/mitglieder.png" alt = "Team: Bodensee-Koalas">
-  <p>Von links nach rechts: Dennis Skurka (Programmierer), Julius Kimpfler (Programmierer und Konstrukteur), Jan Müller (Konstrukteur) und Felix Wiedermann (Konstrukteur).</p>
+  <p class="Text">Von links nach rechts: Dennis Skurka (Programmierer), Julius Kimpfler (Programmierer und Konstrukteur), Jan Müller (Konstrukteur) und Felix Wiedermann (Konstrukteur).</p>
 </div>
 <div class = "Wappen">
   <img src="imgs/Wappen.png" id="Wappen">
 </div>
 </div>
 <div class = "Roboter">
-  <h2 id = "Roboter" class = "Headers">Unser Roboter</h2>
+  <h2 id = "Roboter" class = "Headers" class="Text">Unser Roboter</h2>
   <div = class="Allgemein" id = "Allgemein">
   <div class = AllgemeinRobot>
-  <h3 class = "Headers">Allgemein</h3>
-  <p>Unser Fußballroboter "Ernie"</p>
+  <h3 class = "Headers" class="Text">Allgemein</h3>
+  <p class="Text">Unser Fußballroboter "Ernie"</p>
   <img src = "imgs/Ernie_1.jpg" alt="Ernie">
-  <p>Er besteht aus zwei Ultraschallsensoren, einem Ballsensor und einem Kompasssensor. Dazu wurde der EV3 von Lego Mindstorms sowie RobotC und Visual Studio Code. Der Roboter wurde in C programmiert.</p>
+  <p class="Text">Er besteht aus zwei Ultraschallsensoren, einem Ballsensor und einem Kompasssensor. Dazu wurde der EV3 von Lego Mindstorms sowie RobotC und Visual Studio Code. Der Roboter wurde in C programmiert.</p>
 </div>
   <div class = "AllgemeinRobot" id="Dribbler">
-  <h3 class = "Headers">Der Dribbler</h3>
+  <h3 class="Text" class = "Headers">Der Dribbler</h3>
   <img src = "imgs/Ernie_Dribbler_1.jpg" alt ="Ernie sein Dribbler">
-  <p>Der Dribbler wird benutzt um den Ball an unserrem Roboter zu halten und den Gegner auszudribbeln</p>
+  <p class="Text">Der Dribbler wird benutzt um den Ball an unserem Roboter zu halten und den Gegner auszudribbeln</p>
 </div>
 </div>
-<h3 class = "Headers" id="Sensorik">Die Sensoren</h3>
+<h3 class="Text" class = "Headers" id="Sensorik">Die Sensoren</h3>
 <div class = Sensoren id="Sensoren">
   <div id = "USS">
-  <h4 class = "Headers">Die Ultraschallsensoren</h4>
+  <h4 class="Text" class = "Headers">Die Ultraschallsensoren</h4>
   <img src = "imgs/Ernie_USS_1.jpg" alt = "Einer von Ernie seinen Ultraschallsensoren">
-  <p>Sie werden verwendet um den Abstand zu den jeweiligen Banden des Spielsfeldes zu messen.</p>
+  <p class="Text">Sie werden verwendet um den Abstand zu den jeweiligen Banden des Spielsfeldes zu messen.</p>
 </div>
   <div id="Kompasssensor">
-  <h4 class = "Headers">Der Kompasssensor</h4>
+  <h4 class="Text" class = "Headers">Der Kompasssensor</h4>
   <img src = "imgs/Ernie_Kompasssensor.jpg" alt = "Ernie sein Kompasssensor">
-  <p>Er wird benutzt um die richtung des Tores am Anfang des Spiels zu bestimmen.</p>
+  <p class="Text">Er wird benutzt um die richtung des Tores am Anfang des Spiels zu bestimmen.</p>
   </div>
   <div id = "Ballsensor">
-  <h4 class = "Headers">Der Ballsensor</h4>
+  <h4 class="Text" class = "Headers">Der Ballsensor</h4>
   <img src="imgs/Ernie_Ballsensor.jpg" alt ="Ernie sein Ballsensor">
-  <p>Der Ballsensor wird benutzt um die Richtung wo sich der Ball befindet zu bestimmen. Das tut er indem er das IR-Signal des Balles erkennt und eine Zahl von 1-9 oder 0 (nicht erkannt) ausgibt die 1 steht für ganz links die 5 für geradeaus und die 9 für ganz rechts.</p>
+  <p class="Text">Der Ballsensor wird benutzt um die Richtung wo sich der Ball befindet zu bestimmen. Das tut er indem er das IR-Signal des Balles erkennt und eine Zahl von 1-9 oder 0 (nicht erkannt) ausgibt die 1 steht für ganz links die 5 für geradeaus und die 9 für ganz rechts.</p>
   </div>
 </div>
 </div>
 
-<p id="credits">Website erstellt von: Dennis Skurka </p>
-<p id="credits">Bilder fotographiert von: Felix Wiedermann</p>
+<p class="Text" id="credits">Website erstellt von: Dennis Skurka </p>
+<p class="Text" id="credits">Bilder fotographiert von: Felix Wiedermann</p>
 </body>
 </html>

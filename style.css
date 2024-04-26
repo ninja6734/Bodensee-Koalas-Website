@@ -21,6 +21,10 @@
     transition: 0.5s;
     margin-left: 20px;
 }
+#LanguageButton{
+    float: right;
+    margin-right: 30px !important;
+}
 #Team{
     margin-left: 0px;
 }
@@ -94,6 +98,7 @@ img{
     background-color: var(--light_container_background_hover);
 }
 .Headers{
+    margin-left: 20px;
     font-family: "Quicksand", sans-serif;
     color: var(--light_text);
 }

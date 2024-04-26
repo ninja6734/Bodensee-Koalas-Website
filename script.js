@@ -42,7 +42,7 @@ function LoadTheme(selTheme){
     }
 }
 
-window.onload = function SetupTheme(){
+window.onload = function Setup(){
     let theme = localStorage.getItem("theme");
     if(theme){
         LoadTheme(theme);
