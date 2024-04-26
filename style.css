@@ -3,6 +3,7 @@
     border-radius: 11px;
     background-color: #d9e6eb;
     border-color: #d9e6eb;
+    transition: 0.5s;
 }
 .MainNav button:hover{
     background-color: #bbc9ce;
@@ -33,6 +34,7 @@ p{
     padding-left: 85px;
 }
 body{
+    margin: 0px;
     background-color: rgb(217, 223, 235);
 }
 img{
@@ -48,7 +50,7 @@ img{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .MainNav{
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     background-color: rgb(204, 209, 220);
 }
