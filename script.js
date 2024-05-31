@@ -3,7 +3,7 @@ function MainButtons(target){
     targetElement.scrollIntoView({behavior: "smooth"})
 }
 function OpenWebsite(){
-    window.open("HauptFile_4.4.c");
+    window.open("Plakat.jpg");
 }
 function ChangeTheme(){
     let theme = localStorage.getItem("theme");
