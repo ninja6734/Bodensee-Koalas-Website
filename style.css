@@ -7,7 +7,9 @@
     --light_body_background: #d9dfeb;
     --light_text: #000000;
 }
-
+.MainNav{
+    width: 100%;
+}
 .MainNav button{
     color: var(--light_text);
     font-size: 19px;
@@ -89,6 +91,7 @@ img{
     background-color: var(--light_container_background_hover);
 }
 #Sensoren{
+    width: 100%;
     padding-left: 12px;
     border-radius: 10px;
     background-color: var(--light_container_background);
@@ -113,5 +116,20 @@ img{
     background-color: var(--light_container_background_hover);
 }
 #Wappen{
-    padding-left: 90%;
+    padding-left: 40px;
+}
+#krassBot{
+    padding-top: 26px;
+    padding-left: 40px;
+}
+h3{
+    font-family: "Quicksand", sans-serif;
+    color: var(--light_text);
+}
+h4{
+    font-family: "Quicksand", sans-serif;
+    color: var(--light_text);
+}
+@media{
+    {screen}
 }
